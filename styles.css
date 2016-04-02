@@ -1,34 +1,69 @@
 body {
+  color: #000f07;
   margin: 0;
   text-align: center;
+  background-color: #fff0f8;
+  font-family: 'Indie Flower', cursive;
 }
 header {
   background-color: #fa8072;
   text-align: center;
-  text-family: arial;
+  font-family: arial;
+  font-family: 'Indie Flower', cursive;
+  font-size: 34px;
 }
 h1 {
-  color: #fff;
+  color: #72ecfa;
   margin: 0;
   padding: 20px 0;
 }
 form {
+  font-size: 24px;
   padding-top: 50px;
+  text-align: left;
+  display: inline-block;
 }
 ul {
+  font-size: 24px;
   list-style: none;
   padding-top: 20px;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  display: inline-block;
 }
-input {
-  margin: 5px;
+li {
+  text-align: left;
 }
-.about ol {
-  margin-bottom: 50px;
-}
-.align-list {
+div {
   text-align: center;
 }
-.align-list ol {
+button {
+  margin: 5px;
+}
+#btn {
+  background-color: #fa8072;
+  color: #72ecfa;
+  border-color: #72ecfa;
+  -webkit-border-radius: 3px 3px;
+  -moz-border-radius: 3px 3px;
+  border-radius: 3px 3px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  padding: 1px 5px;
+  margin: 0 auto;
+  font-size: 24px;
+}
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+img {
   display: inline-block;
-  text-align: left;
+  float: right;
+  height: 200px;
+  width: auto;
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
 }

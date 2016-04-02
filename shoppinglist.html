@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 		<title>Shopping List</title>
 	</head>
 
@@ -10,19 +11,22 @@
 			<h1>Shopping List</h1>
 		</header>
 
+		<main>
+
 		<form>
   			<label>Item Name:</label>
   			<input type="text" id="itemName"><br>
   			<label>Price:</label>
   			<input type="text" id="price"><br>
-  			<input type="button" onclick="addItem()" value="Submit" >
+  			<div><button id="btn" type="button" onclick="addItem()">Add</button></div>
 		</form>
-
 
 		<section>
 			<ul class="align-list" id="item">
 			</ul>
 		</section>
+		<img src="http://clipartion.com/wp-content/uploads/2015/11/shopping-bag-png-image.png">
+	</main>
 		<script type="text/javascript" src="shoppinglist.js"></script>
 	</body>
 

@@ -1,18 +1,18 @@
 var items = [
 	{
-		name: "milk",
+		name: "Milk",
 		price: 3.00
 	},
 	{
-		name: "bread",
+		name: "Bread",
 		price: 2.50
 	},
 	{
-		name: "eggs",
+		name: "Eggs",
 		price: 1.25
 	},
 	{
-		name: "ice cream",
+		name: "Ice Cream",
 		price: 5.00
 	},
 ]
@@ -28,6 +28,7 @@ items.forEach(function(element){
 });
 
 var newP = document.createElement('p');
+newP.id = "total"
 newP.innerHTML = "Total: $" + total.toFixed(2);
 document.body.appendChild(newP);
 
@@ -45,5 +46,5 @@ function addItem(){
 	listItem.appendChild(newLi);
 	total += numPrice;
 	console.log(total);
-	var newPrice = document.createTextNode("Total: $" + total.toFixed(2));
+	newP.innerHTML = "Total: $" + total.toFixed(2);
 };
